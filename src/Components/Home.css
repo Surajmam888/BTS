@@ -1,0 +1,9 @@
+.bannerimg {
+    /* background-image: url('../assets/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-image: url('../assets/Homeimg/konveer.png');
+    height: "390px";
+    width: "600px";
+}
