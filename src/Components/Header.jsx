@@ -68,7 +68,7 @@ function Header() {
       <Box>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+            <Link to={"/"}><AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /></Link>
             <Typography
               variant="h6"
               noWrap
