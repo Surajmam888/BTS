@@ -68,7 +68,7 @@ function Header() {
       <Box>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <Link to={"/"}><AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /></Link>
+            <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
             <Typography
               variant="h6"
               noWrap
@@ -128,7 +128,7 @@ function Header() {
                 ))}
               </Menu>
             </Box>
-            <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+            <Link to={"/"}><AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /></Link>
             <Typography
               variant="h5"
               noWrap
